@@ -24,8 +24,6 @@ Next, this analysis was repeated but with resampling the dataset using random ov
 
 ## Results
 
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
-
 * Model 1 - Logistic Regression Without Resampling:
   * Accuracy: .99
   * Healty Loans (0): Precision 1.00 and Recall 0.99
@@ -38,8 +36,6 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
   
 
 ## Summary
-
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
 
 * Model 1 - Logistic Regression Without Resampling:
 This model predicts the healthy loan (0) very well with high precision (1.00) and recall (0.99). The model doesn't do as great a job at predicting the high-risk loan. It doesn't predict as well whether the high risk loan is actually a high risk loan with .85 precision (has some False Positives) and doesn't do asgood job at identifying when a loan isn't a high risk loan wtih .91 recall (has some False Negatives).
