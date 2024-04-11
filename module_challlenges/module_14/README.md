@@ -7,7 +7,9 @@ short_window = 4
 long_window = 100
 
 Train/Test:
+
 Training Data: 3 Months: 2015-04-02 15:00:00 - 2015-07-02 15:00:00
+
 Testing Data: 66 Months: 2015-07-06 10:00:00 - 2021-01-22 15:45:0
 
              precision    recall  f1-score   support
@@ -28,7 +30,9 @@ short_window = 4
 long_window = 100
 
 Train/Test:
+
 Training Data: 25 Months: 2015-04-02 15:00:0 - 2017-05-02 15:00:00
+
 Testing Data:  44 Months: 2017-05-03 10:45:00 - 2021-01-22 15:45:0
 
               precision    recall  f1-score   support
@@ -56,7 +60,9 @@ short_window = 3
 long_window = 120
 
 Train/Test:
+
 Training Data: 3 Months: 2015-04-02 15:00:00 - 2015-07-02 15:00:00
+
 Testing Data: 66 Months: 2015-07-06 10:00:00 - 2021-01-22 15:45:0
 
               precision    recall  f1-score   support
@@ -85,7 +91,9 @@ short_window = 3
 long_window = 120
 
 Train/Test:
+
 Training Data: 25 Months: 2015-04-09 15:00:0 - 2017-05-09 15:00:00
+
 Testing Data:  44 Months: 2017-05-09 10:45:00 - 2021-01-22 15:45:0
 
               precision    recall  f1-score   support
@@ -111,7 +119,9 @@ short_window = 4
 long_window = 100
 
 Train/Test:
+
 Training Data: 3 Months: 2015-04-02 15:00:00 - 2015-07-02 15:00:00
+
 Testing Data: 66 Months: 2015-07-06 10:00:00 - 2021-01-22 15:45:0
 
 
