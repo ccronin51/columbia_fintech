@@ -45,8 +45,11 @@ Testing Data:  44 Months: 2017-05-03 10:45:00 - 2021-01-22 15:45:0
 **What impact resulted from increasing or decreasing the training window?
 
 Cumulative returns increased from 1.5 to 1.6 as seen on cumulative return plots
+
 Accuracy improved slightly to 0.56 from 0.55
+
 Precision of predicting sell signals (-1) improved the most from 0.43 to 0.80
+
 Recall decreased by -.04 for sell signals and increased by +.04 for buy signals (+1)
 
 Conclusion: Adjusting the training duration did see improvements over baseline
@@ -75,9 +78,13 @@ Testing Data: 66 Months: 2015-07-06 10:00:00 - 2021-01-22 15:45:0
 **What impact resulted from increasing or decreasing either or both of the SMA windows?
 
 Cumulative returns increased even more from 1.5 to ~1.65 as seen on cumulative return plots
+
 Accuracy stayed the same at 0.55
+
 Precision scores stayed about the same with .42 for sell signals and .56 for buy signals (vs. .55 for baseline)
+
 Recall scores increased .02 for sell signals and decreased .03 for buy signals
+
 The increase in Recall scores for sell signals therefore had a big impact
 
 Conclusion: Adjusting the SMA led to even more improvements over baseline versus train duration adjustments
@@ -104,8 +111,11 @@ Testing Data:  44 Months: 2017-05-09 10:45:00 - 2021-01-22 15:45:0
     accuracy                           0.56      2703
 
 Cumulative returns increased from 1.5 to 1.8 as seen on cumulative return plots
+
 Accuracy improved slightly to 0.56 from 0.55
+
 Precision scores increased by .09 for sell signals and stayed the same for buy signals
+
 Recall scores decreased by .03 for sell signals and increased by .03 for buy signals
 
 Conclusion: This set of parameters, adjusting both the train and SMA windowsa, produced the model that performed the best
@@ -133,8 +143,11 @@ Testing Data: 66 Months: 2015-07-06 10:00:00 - 2021-01-22 15:45:0
     accuracy                           0.52      4092
     
 Cumulative returns decreased from 1.5 to 1.15 as seen on cumulative return plots
+
 Accuracy decreased to 0.52 from 0.55
+
 Precision scores stayed about the same for sell and buy signals
+
 Recall scores increased significantly by .29 for sell signals and decreased significantly by .30 for buy signals. 
 
 Conclusion: Applying logistic regression with the original baseline params produced the worst performing model. 
